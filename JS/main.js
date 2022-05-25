@@ -1,0 +1,101 @@
+/*Algoritmo para adivinar el mayor de 3 numeros
+dados por el usuario
+
+let num1 = prompt("Primer número entre 1 y 100");
+if (num1<1 || num1>100){
+    alert("Número incorrecto")
+    let num1 = parseFloat ("Primer número")
+}
+
+let num2 = prompt("Segundo número entre 1 y 100");
+if (num2<1 || num2>100){
+    alert("Número incorrecto")
+    let num2 = parseFloat ("Segundo número")
+}
+
+let num3 = prompt("Tercer número entre 1 y 100");
+if (num3<1 || num3>100){
+    alert("Número incorrecto")
+    let num3 = parseFloat ("Tercer número")
+}
+
+else if ((num1>=num2) && (num1>=num3)){
+    alert("El número mayor es: " + num1);
+}
+
+else if ((num2>=num1) && (num2>=num3)){
+    alert("El número mayor es: " + num2);
+}
+
+else if ((num3>=num1) && (num3>=num2)){
+alert("El número mayor es: " + num3);
+}*/
+
+/*Algoritmo para adivinar el menor de 3 numeros
+dados por el usuario
+
+
+let num1 = prompt("Primer número entre 1 y 100");
+if (num1<1 || num1>100){
+    alert("Número incorrecto")
+    let num1 = parseFloat ("Primer número")
+}
+
+let num2 = prompt("Segundo número entre 1 y 100");
+if (num2<1 || num2>100){
+    alert("Número incorrecto")
+    let num2 = parseFloat ("Segundo número")
+}
+
+let num3 = prompt("Tercer número entre 1 y 100");
+if (num3<1 || num3>100){
+    alert("Número incorrecto")
+    let num3 = parseFloat ("Tercer número")
+}
+
+if((num1<=num2) && (num1<=num3)){
+    alert("El número menor es: " + num1);
+}
+
+else if ((num2<=num1) && (num2<=num3)){
+        alert("El número menor es: " + num2);
+}
+
+else if ((num3<=num1) && (num3<=num2)){
+    alert("El número menor es: " + num3);
+}*/
+
+/*4. Algoritmo para solicitar un numero entre 100 y 200 y saber 
+si es multiplo de 3
+
+
+let num1 = prompt("Ingresa un número entre 100 y 200");
+if (num1<100 || num1>200){
+    alert("Número incorrecto")
+    let num1 = parseInt ("El numero es: " + num1)
+}
+console.log (num1)
+
+if (num1%3 == 0){
+    alert("El número es divisible entre 3");
+}
+
+else 
+    alert("El número no es divisible entre 3");*/
+
+//6. Algoritmo para leer un número y determinar si es par o impar
+
+let num1 = prompt("Ingresa un número");
+if (num1 == 0){
+    alert("numero invalido")
+}
+
+if (num1%2 == 0){
+    alert("El número es par");
+}
+
+else 
+    alert("El número es impar");
+
+
+
