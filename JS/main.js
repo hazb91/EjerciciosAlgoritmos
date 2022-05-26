@@ -1,4 +1,4 @@
-/*Algoritmo para adivinar el mayor de 3 numeros
+/* 1. Algoritmo para adivinar el mayor de 3 numeros
 dados por el usuario
 
 let num1 = prompt("Primer número entre 1 y 100");
@@ -31,7 +31,7 @@ else if ((num3>=num1) && (num3>=num2)){
 alert("El número mayor es: " + num3);
 }*/
 
-/*Algoritmo para adivinar el menor de 3 numeros
+/* 2. Algoritmo para adivinar el menor de 3 numeros
 dados por el usuario
 
 
@@ -83,19 +83,42 @@ if (num1%3 == 0){
 else 
     alert("El número no es divisible entre 3");*/
 
+//5. leer 3 números y determinar si uno es la suma de los otros 2
+
+let num1 = parseFloat (prompt("Primer número"));
+
+let num2 = parseFloat (prompt("Segundo número"));
+
+let num3 = parseFloat (prompt("Tercer número"));
+
+if ( (num1 + num2) == num3) {
+    alert ("el tercer número es suma de los otros dos");
+}
+
+else if ( (num1 + num3) == num2) {
+    alert ("el segundo número es suma de los otros dos");
+}
+
+else if ( (num2 + num3) == num1) {
+    alert ("el primer número es suma de los otros dos");
+}
+
+else  {
+    alert ("Ningun número es suma de los otros 2")
+}
+
+
 //6. Algoritmo para leer un número y determinar si es par o impar
 
-let num1 = prompt("Ingresa un número");
-if (num1 == 0){
-    alert("numero invalido")
-}
+// let num1 = prompt("Ingresa un número");
+// if (num1 == 0){
+//     alert("numero invalido")
+// }
 
-if (num1%2 == 0){
-    alert("El número es par");
-}
+// if (num1%2 == 0 && num1 != 0){
+//     alert("El número es par");
+// }
 
-else 
-    alert("El número es impar");
-
-
-
+// else if (num1 != 0) {
+//     alert("El número es impar")
+// };
