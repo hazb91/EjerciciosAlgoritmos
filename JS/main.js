@@ -65,6 +65,32 @@ else if ((num3<=num1) && (num3<=num2)){
     alert("El número menor es: " + num3);
 }*/
 
+// Adivinarl el numero entre 1 y 100 en el menor numero de intentos
+
+function Adivinar() {
+    let superior = 100;
+    let inferior = 0;
+    let noEncontrado = true;
+    while (noEncontrado) {
+        let mid = parseInt (inferior + ((superior - inferior) /2));
+        console.log(mid);
+        console.log((superior-inferior)/2);
+        if (((superior-inferior)/2)<1) {
+            noEncontrado = false;
+            alert("Tu número es el " + (parseInt(mid) + 1));
+            break;
+        }
+        let res = confirm ("Tu número es menor o igual a " + mid);
+        if (res) {
+            superior=mid;
+        } else {
+            inferior = mid;
+        }
+        console.log(inferior, superior);
+    }
+}
+Adivinar();
+
 /*4. Algoritmo para solicitar un numero entre 100 y 200 y saber 
 si es multiplo de 3
 
@@ -85,27 +111,27 @@ else
 
 //5. leer 3 números y determinar si uno es la suma de los otros 2
 
-let num1 = parseFloat (prompt("Primer número"));
+// let num1 = parseFloat (prompt("Primer número"));
 
-let num2 = parseFloat (prompt("Segundo número"));
+// let num2 = parseFloat (prompt("Segundo número"));
 
-let num3 = parseFloat (prompt("Tercer número"));
+// let num3 = parseFloat (prompt("Tercer número"));
 
-if ( (num1 + num2) == num3) {
-    alert ("el tercer número es suma de los otros dos");
-}
+// if ( (num1 + num2) == num3) {
+//     alert ("el tercer número es suma de los otros dos");
+// }
 
-else if ( (num1 + num3) == num2) {
-    alert ("el segundo número es suma de los otros dos");
-}
+// else if ( (num1 + num3) == num2) {
+//     alert ("el segundo número es suma de los otros dos");
+// }
 
-else if ( (num2 + num3) == num1) {
-    alert ("el primer número es suma de los otros dos");
-}
+// else if ( (num2 + num3) == num1) {
+//     alert ("el primer número es suma de los otros dos");
+// }
 
-else  {
-    alert ("Ningun número es suma de los otros 2")
-}
+// else  {
+//     alert ("Ningun número es suma de los otros 2")
+// }
 
 
 //6. Algoritmo para leer un número y determinar si es par o impar

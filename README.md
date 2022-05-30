@@ -7,7 +7,7 @@ Implementación de los ejercicios de algoritmos con Javascript
 
 2. Solicitar 3 números (entre el 1 y el 100)  y definir el menor de tres números
 
-_3. Realizar un algortimo para adivinar un número entre el 1 y el 100 en el menor número de pasos posibles
+3. _ Realizar un algortimo para adivinar un número entre el 1 y el 100 en el menor número de pasos posibles _
 
 4. Solicitar un entero (entre el 100 y el 200) y determinar si es múltiplo de 3
 
